@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(255, 228, 196);
+    font-family: Roboto;
+    /*blue border around the website*/
+    border: 4px solid rgb(95, 168, 211);
+    width: 80%;
+    margin: auto
+}
+
+/* font for paragraph*/
+p{
+    font-size: 120%;
+    padding: 10px;
+
+}
+/*removing the underline from the main title*/
+/*a is anchor / link*/
+a:visited{
+    color:black;
+}
+/*removing underline from h1 title*/
+h1 a {
+    text-decoration: none;
+}
+h1{
+    font-size:300%;
+    font-weight: bold;
+    padding: 40px ;
+    text-align: center;
+}
+h2{
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+li{
+    padding: 5px;
+    margin-left: 20px;
+}
+/*color when mouse hovers over list*/
+li:hover {
+    background-color:rgb(95, 168, 211);
+    font-weight: bold;
+    color: #985F99;
+}
+img{
+    display: block; margin: auto;
+}
+/*assigning my own font*/
+@font-face{
+    font-family: Roboto;
+    src: url(fonts/Roboto.woff2)
+}
+/*to do: put padding inside of border*/
+.selectionBorder{
+    border: 4px double #985F99;
+    max-width: fit-content;
+    margin-left: 10px;
+}
